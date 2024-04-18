@@ -2,7 +2,7 @@ package org.example;
 
 public class metodosOrdenamiento {
 
-    private int tamano;
+    private int numeroEstudiantes;
     private Estudiantes vectorEstudiantes[];
 
     public metodosOrdenamiento() {

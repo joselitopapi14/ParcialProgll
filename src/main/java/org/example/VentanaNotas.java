@@ -51,7 +51,7 @@ public class VentanaNotas extends javax.swing.JFrame {
         jSeparator5 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jLabel9 = new javax.swing.JLabel();
-        botonAgregar1 = new javax.swing.JButton();
+        botonAgregar = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
@@ -190,7 +190,7 @@ public class VentanaNotas extends javax.swing.JFrame {
         jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, 520, 290));
 
         botonOrdenar.setText("Ordenar");
-        jPanel1.add(botonOrdenar, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 580, 70, 40));
+        jPanel1.add(botonOrdenar, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 580, 80, 40));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Burbuja", "Intercambio", "Seleccion" }));
         jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 580, 170, 40));
@@ -209,14 +209,14 @@ public class VentanaNotas extends javax.swing.JFrame {
         jLabel9.setText("Agregar Nota:");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 290, 160, -1));
 
-        botonAgregar1.setText("Agregar");
-        botonAgregar1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        botonAgregar1.addActionListener(new java.awt.event.ActionListener() {
+        botonAgregar.setText("Agregar");
+        botonAgregar.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        botonAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonAgregar1ActionPerformed(evt);
+                botonAgregarActionPerformed(evt);
             }
         });
-        jPanel1.add(botonAgregar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, 70, 30));
+        jPanel1.add(botonAgregar, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, 70, 30));
 
         jButton3.setText("jButton3");
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 440, -1, -1));
@@ -297,9 +297,9 @@ public class VentanaNotas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void botonAgregar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAgregar1ActionPerformed
+    private void botonAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAgregarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_botonAgregar1ActionPerformed
+    }//GEN-LAST:event_botonAgregarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -338,7 +338,7 @@ public class VentanaNotas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField BuscarEstudiante;
-    private javax.swing.JButton botonAgregar1;
+    private javax.swing.JButton botonAgregar;
     private javax.swing.JButton botonBuscarEstudiante;
     private javax.swing.JButton botonOrdenar;
     private javax.swing.JTextField id;
